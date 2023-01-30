@@ -1,0 +1,759 @@
+{
+	"id": "f96c3c41-900f-473f-8008-fed573e5dedf",
+	"name": "Invalid/dataAuth/Collection 1",
+	"timestamp": "2023-01-26T18:38:53.802Z",
+	"collection_id": "24710607-8b9a422a-741c-4acb-b991-46dd6488b34e",
+	"folder_id": 0,
+	"environment_id": "24710607-3cd27021-3c72-4dc0-a28f-1b45c2645866",
+	"totalPass": 290,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "fbf7a7a7-3dd9-48f0-82f2-749c721d8961",
+			"name": "POST/auth/signin",
+			"time": 582,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Response time is less than 5000ms": true,
+				"Vary is present": true,
+				"Successful POST request": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 5000ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Vary is present": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				733,
+				1145,
+				1146,
+				1129,
+				1191,
+				772,
+				1115,
+				1127,
+				1138,
+				582
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "3cc0dc11-6322-4d81-bd70-69ca00f31fea",
+			"name": "GET/users/current",
+			"time": 81,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Vary is present": true,
+				"Successful GET request": true,
+				"Status code name has string": true,
+				"Response time is less than 5000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Vary is present": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 5000ms": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				85,
+				72,
+				74,
+				80,
+				76,
+				84,
+				100,
+				76,
+				73,
+				81
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 5000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 5000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 5000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 5000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 5000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 5000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 5000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 5000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 5000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 5000ms": true
+				}
+			]
+		},
+		{
+			"id": "ca65f2c4-ee48-432f-b436-8c044b59e1ae",
+			"name": "GET/users/profile",
+			"time": 74,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Vary is present": true,
+				"Response time is less than 20000ms": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Vary is present": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				74,
+				74,
+				74,
+				75,
+				71,
+				85,
+				71,
+				79,
+				116,
+				74
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "33a71e81-0a19-420b-8819-6773bff16da5",
+			"name": "PUT/users/profile",
+			"time": 102,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Vary is present": true,
+				"Response time is less than 20000ms": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Vary is present": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				76,
+				76,
+				75,
+				80,
+				294,
+				76,
+				74,
+				80,
+				104,
+				102
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "1c3c38a7-dafb-4589-bf88-bafe88507ab9",
+			"name": "GET/users/settings",
+			"time": 78,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Vary is present": true,
+				"Response time is less than 20000ms": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Vary is present": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				78,
+				77,
+				74,
+				97,
+				74,
+				81,
+				73,
+				73,
+				72,
+				78
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "30224dd1-619b-4a11-900d-6704f057d3d8",
+			"name": "PUT/users/settings",
+			"time": 75,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Vary is present": true,
+				"Response time is less than 20000ms": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Vary is present": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				80,
+				86,
+				109,
+				77,
+				76,
+				79,
+				78,
+				89,
+				76,
+				75
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				},
+				{
+					"Status code is 200": true,
+					"Vary is present": true,
+					"Response time is less than 20000ms": true,
+					"Successful POST request": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 14311,
+	"collection": {
+		"requests": [
+			{
+				"id": "fbf7a7a7-3dd9-48f0-82f2-749c721d8961",
+				"method": "POST"
+			},
+			{
+				"id": "3cc0dc11-6322-4d81-bd70-69ca00f31fea",
+				"method": "GET"
+			},
+			{
+				"id": "ca65f2c4-ee48-432f-b436-8c044b59e1ae",
+				"method": "GET"
+			},
+			{
+				"id": "33a71e81-0a19-420b-8819-6773bff16da5",
+				"method": "PUT"
+			},
+			{
+				"id": "1c3c38a7-dafb-4589-bf88-bafe88507ab9",
+				"method": "GET"
+			},
+			{
+				"id": "30224dd1-619b-4a11-900d-6704f057d3d8",
+				"method": "PUT"
+			}
+		]
+	}
+}

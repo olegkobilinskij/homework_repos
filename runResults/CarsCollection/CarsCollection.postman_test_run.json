@@ -1,0 +1,1718 @@
+{
+	"id": "c42c4332-5618-455a-8840-a992d667d182",
+	"name": "CarsCollection",
+	"timestamp": "2023-01-29T11:34:23.535Z",
+	"collection_id": "24710607-a9dddb03-24c1-4521-b658-b91500e5e773",
+	"folder_id": 0,
+	"environment_id": "24710607-3cd27021-3c72-4dc0-a28f-1b45c2645866",
+	"totalPass": 780,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "de2e3680-83c4-4aa4-a99c-3344a708e805",
+			"name": "POST/auth/signin",
+			"time": 951,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Response time is less than 5000ms": true,
+				"Vary is present": true,
+				"Successful POST request": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 5000ms": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Vary is present": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				1227,
+				1104,
+				1105,
+				1113,
+				1131,
+				558,
+				1105,
+				1102,
+				563,
+				1109,
+				1747,
+				1103,
+				1017,
+				1111,
+				951
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				}
+			]
+		},
+		{
+			"id": "b0af919d-9a53-4c69-81af-66998ea9e021",
+			"name": "GET/cars/brands",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Successful GET request": true,
+				"Status code name has string": true,
+				"Response time is less than 20000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				89,
+				66,
+				62,
+				64,
+				64,
+				364,
+				64,
+				66,
+				63,
+				67,
+				64,
+				70,
+				114,
+				67,
+				69
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				}
+			]
+		},
+		{
+			"id": "29e59a40-5973-4f23-8b42-a2755f72eba0",
+			"name": "GET/cars/brands{id}",
+			"time": 65,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Successful GET request": true,
+				"Status code name has string": true,
+				"Response time is less than 20000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				63,
+				133,
+				63,
+				62,
+				61,
+				62,
+				62,
+				63,
+				61,
+				65,
+				61,
+				60,
+				64,
+				71,
+				65
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				}
+			]
+		},
+		{
+			"id": "4d1cf373-f0b9-442b-b5a6-abf45028adbd",
+			"name": "GET/cars/models",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Successful GET request": true,
+				"Status code name has string": true,
+				"Response time is less than 20000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				65,
+				65,
+				64,
+				63,
+				64,
+				66,
+				65,
+				62,
+				69,
+				65,
+				63,
+				61,
+				70,
+				68,
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				}
+			]
+		},
+		{
+			"id": "34243c67-aa2d-4c4e-aed0-75dc12fafd75",
+			"name": "GET/cars/models/{id}",
+			"time": 63,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Successful GET request": true,
+				"Status code name has string": true,
+				"Response time is less than 20000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				64,
+				63,
+				63,
+				63,
+				63,
+				62,
+				67,
+				70,
+				62,
+				62,
+				64,
+				63,
+				64,
+				67,
+				63
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				}
+			]
+		},
+		{
+			"id": "2ead29de-9502-4f1e-9ef7-7a05ce372760",
+			"name": "GET/current/cars",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Successful GET request": true,
+				"Status code name has string": true,
+				"Response time is less than 20000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Successful GET request": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				72,
+				82,
+				68,
+				69,
+				72,
+				71,
+				72,
+				68,
+				67,
+				69,
+				74,
+				127,
+				67,
+				75,
+				73
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful GET request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				}
+			]
+		},
+		{
+			"id": "4990059f-6e20-4d57-8858-02eda8b49a25",
+			"name": "POST/create/cars",
+			"time": 72,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Content-Type is present": true,
+				"Successful POST request": true,
+				"Status code name has string": true,
+				"Response time is less than 20000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				133,
+				84,
+				73,
+				81,
+				70,
+				73,
+				73,
+				70,
+				73,
+				71,
+				72,
+				88,
+				74,
+				90,
+				72
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				}
+			]
+		},
+		{
+			"id": "af0a7bed-0ab4-4036-8d33-fc91d587a1fa",
+			"name": "PUT/edit/cars/id",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Successful POST request": true,
+				"Status code name has string": true,
+				"Response time is less than 20000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				82,
+				73,
+				83,
+				70,
+				69,
+				75,
+				69,
+				72,
+				71,
+				70,
+				74,
+				72,
+				79,
+				72,
+				77
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				}
+			]
+		},
+		{
+			"id": "299e5c37-7190-441b-a1e8-f42ebf09cbcc",
+			"name": "DEL/cars/id",
+			"time": 67,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is present": true,
+				"Successful DEL request": true,
+				"Status code name has string": true,
+				"Response time is less than 20000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Successful DEL request": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 20000ms": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				62,
+				66,
+				63,
+				67,
+				64,
+				119,
+				68,
+				68,
+				64,
+				67,
+				65,
+				62,
+				66,
+				65,
+				67
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is present": true,
+					"Successful DEL request": true,
+					"Status code name has string": true,
+					"Response time is less than 20000ms": true
+				}
+			]
+		},
+		{
+			"id": "152c61cf-79e7-4222-bc46-6bd6734d308a",
+			"name": "GET/auth/logout",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches string": true,
+				"Response time is less than 5000ms": true,
+				"Vary is present": true,
+				"Successful POST request": true,
+				"Status code name has string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Response time is less than 5000ms": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Vary is present": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 15,
+					"fail": 0
+				},
+				"Status code name has string": {
+					"pass": 15,
+					"fail": 0
+				}
+			},
+			"times": [
+				68,
+				63,
+				64,
+				106,
+				67,
+				63,
+				63,
+				71,
+				64,
+				65,
+				63,
+				65,
+				65,
+				64,
+				66
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				},
+				{
+					"Status code is 200": true,
+					"Body matches string": true,
+					"Response time is less than 5000ms": true,
+					"Vary is present": true,
+					"Successful POST request": true,
+					"Status code name has string": true
+				}
+			]
+		}
+	],
+	"count": 15,
+	"totalTime": 25832,
+	"collection": {
+		"requests": [
+			{
+				"id": "de2e3680-83c4-4aa4-a99c-3344a708e805",
+				"method": "POST"
+			},
+			{
+				"id": "b0af919d-9a53-4c69-81af-66998ea9e021",
+				"method": "GET"
+			},
+			{
+				"id": "29e59a40-5973-4f23-8b42-a2755f72eba0",
+				"method": "GET"
+			},
+			{
+				"id": "4d1cf373-f0b9-442b-b5a6-abf45028adbd",
+				"method": "GET"
+			},
+			{
+				"id": "34243c67-aa2d-4c4e-aed0-75dc12fafd75",
+				"method": "GET"
+			},
+			{
+				"id": "2ead29de-9502-4f1e-9ef7-7a05ce372760",
+				"method": "GET"
+			},
+			{
+				"id": "4990059f-6e20-4d57-8858-02eda8b49a25",
+				"method": "POST"
+			},
+			{
+				"id": "af0a7bed-0ab4-4036-8d33-fc91d587a1fa",
+				"method": "PUT"
+			},
+			{
+				"id": "299e5c37-7190-441b-a1e8-f42ebf09cbcc",
+				"method": "DELETE"
+			},
+			{
+				"id": "152c61cf-79e7-4222-bc46-6bd6734d308a",
+				"method": "GET"
+			}
+		]
+	}
+}
