@@ -1,0 +1,116 @@
+{
+  "id": "460a9b6c-b175-4cb1-a69a-0596fe9d6800",
+  "version": "2.0",
+  "name": "hillel_project3",
+  "url": "https://qauto2.forstudy.space",
+  "tests": [{
+    "id": "607ea2b0-72e8-412b-8caa-1bc0d35d2fda",
+    "name": "Check_Remember_btn",
+    "commands": [{
+      "id": "647ad38e-cde3-4c94-8dab-c8c91528ba66",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "622f992b-ae7c-4551-b1b1-5f89ec133bd2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x1024",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b0165d99-0c1d-4d62-b3e6-3467108447c5",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class=\"btn btn-outline-white header_signin\"]",
+      "targets": [
+        ["css=.btn-outline-white", "css:finder"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": "Sign in"
+    }, {
+      "id": "194d1d74-5614-4766-81f1-bc148543f693",
+      "comment": "",
+      "command": "type",
+      "target": "id=signinEmail",
+      "targets": [
+        ["id=signinEmail", "id"],
+        ["name=email", "name"],
+        ["css=#signinEmail", "css:finder"],
+        ["xpath=//input[@id='signinEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "olegkobilinskij@g.com"
+    }, {
+      "id": "8bc75a84-8d42-442a-92f1-5669223f782b",
+      "comment": "",
+      "command": "type",
+      "target": "id=signinPassword",
+      "targets": [
+        ["id=signinPassword", "id"],
+        ["name=password", "name"],
+        ["css=#signinPassword", "css:finder"],
+        ["xpath=//input[@id='signinPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "222_Test_222"
+    }, {
+      "id": "8ed3180d-0640-42ac-ada8-64c4c3dbe095",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class=\"btn btn-primary\"]",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": "Login"
+    }, {
+      "id": "b6adf709-601b-4835-90e2-cf28b6557a2a",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class=\"btn btn-white btn-sidebar sidebar_btn -active\"]",
+      "targets": [
+        ["css=.btn-white:nth-child(3)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Instructions')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/panel/instructions')])[3]", "xpath:href"],
+        ["xpath=//div/div/div/div/nav/a[3]", "xpath:position"]
+      ],
+      "value": "Instructions"
+    }, {
+      "id": "10d71919-cf68-4936-a40c-197f39292373",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class=\"btn btn-link text-danger btn-sidebar sidebar_btn\"]",
+      "targets": [
+        ["linkText=Log out", "linkText"],
+        ["css=.text-danger", "css:finder"],
+        ["xpath=//a[contains(text(),'Log out')]", "xpath:link"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Log out')]", "xpath:innerText"]
+      ],
+      "value": "Log out"
+    }, {
+      "id": "1fa106ea-45cd-4768-8e70-27c2003e8fcf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "//button[@class=\"hero-descriptor_btn btn btn-primary\"]",
+      "targets": [],
+      "value": "Sign up"
+    }]
+  }],
+  "suites": [{
+    "id": "df6153a8-7830-4391-aff6-267e7b310d80",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["607ea2b0-72e8-412b-8caa-1bc0d35d2fda"]
+  }],
+  "urls": ["https://qauto2.forstudy.space/"],
+  "plugins": []
+}
