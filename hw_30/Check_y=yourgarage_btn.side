@@ -1,0 +1,138 @@
+{
+  "id": "86ce6328-4462-47b6-92ec-b3b6343603e7",
+  "version": "2.0",
+  "name": "hillel_project",
+  "url": "https://qauto2.forstudy.space",
+  "tests": [{
+    "id": "3527a355-c808-43dc-b574-acabdf440104",
+    "name": "Check_y=yourgarage_btn",
+    "commands": [{
+      "id": "800c10a6-d322-4934-9d83-59f4c8568a81",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43cb5870-9891-4e5b-9cf0-d469dbd2fe8f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x1024",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7e61ef4-c0d7-4a82-a3c3-c3acf518ae20",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "//button[@class=\"btn btn-outline-white header_signin\"]",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "d79b2465-ba73-4339-89fd-81eff70d1945",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class=\"btn btn-outline-white header_signin\"]",
+      "targets": [
+        ["css=.btn-outline-white", "css:finder"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "25a53ff9-db03-441f-bc1e-1dee87f49603",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "//button[@class=\"btn btn-outline-white header_signin\"]",
+      "targets": [
+        ["css=.btn-outline-white", "css:finder"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d55434f-fc32-4829-81c8-43e086970aa2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "//button[@class=\"btn btn-outline-white header_signin\"]",
+      "targets": [
+        ["css=.btn-outline-white", "css:finder"],
+        ["xpath=//div[2]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign In')]", "xpath:innerText"]
+      ],
+      "value": "Sign in"
+    }, {
+      "id": "12d2b9bf-7be2-4aa1-9100-d43a0c2bf972",
+      "comment": "",
+      "command": "type",
+      "target": "id=signinEmail",
+      "targets": [
+        ["id=signinEmail", "id"],
+        ["name=email", "name"],
+        ["css=#signinEmail", "css:finder"],
+        ["xpath=//input[@id='signinEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "olegkobilinskij@g.com"
+    }, {
+      "id": "ea48d23d-721b-498f-81a3-2eb243c0042e",
+      "comment": "",
+      "command": "type",
+      "target": "id=signinPassword",
+      "targets": [
+        ["id=signinPassword", "id"],
+        ["name=password", "name"],
+        ["css=#signinPassword", "css:finder"],
+        ["xpath=//input[@id='signinPassword']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "222_Test_222"
+    }, {
+      "id": "130a1f5c-25c2-4ea5-af06-9724fc2303b0",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class=\"btn btn-primary\"]",
+      "targets": [
+        ["css=.btn-primary:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": "Login"
+    }, {
+      "id": "cb2e061a-f944-4243-8e95-c9e464a12fed",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class=\"btn btn-white btn-sidebar sidebar_btn\"]",
+      "targets": [
+        ["linkText=your garage", "linkText"],
+        ["css=.h3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'your garage')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/panel/garage')])[4]", "xpath:href"],
+        ["xpath=//p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'your garage')]", "xpath:innerText"]
+      ],
+      "value": "Garage"
+    }, {
+      "id": "d3a8ebf8-43f8-4e7a-91a7-b56ee2445ab0",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class=\"btn btn-primary\"]",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add car')]", "xpath:innerText"]
+      ],
+      "value": "Add car"
+    }]
+  }],
+  "suites": [{
+    "id": "c54afad4-1450-4b9f-9363-69dfd7c40831",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3527a355-c808-43dc-b574-acabdf440104"]
+  }],
+  "urls": ["https://qauto2.forstudy.space/"],
+  "plugins": []
+}
